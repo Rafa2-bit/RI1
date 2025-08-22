@@ -159,11 +159,7 @@ function compararPersonagens(personagens) {
 
 compararPersonagens(personagens);
 
-
-
-
 /*
-
 //Um jeito estranho de saber quem é o mais forte.
 
 function duelo(p1,p2){
@@ -174,13 +170,11 @@ function duelo(p1,p2){
     if(p1.forca > p2.forca){pontosP1 = pontosP1+1}if(p1.forca < p2.forca){pontosP2 = pontosP2+1}
     if(p1.velocidade > p2.velocidade){pontosP1 = pontosP1+1}if(p1.velocidade < p2.velocidade){pontosP2 = pontosP2+1}
     if(p1.resistencia > p2.resistencia){pontosP1 = pontosP1+1}if(p1.velocidade < p2.velocidade){pontosP2 = pontosP2+1}
-    if(pontosP1 > pontosP2){console.log("O personagem "+p1.codinome+" venceu o duelo contra "+p2.codinome); return p1}
-    else if(pontosP1 < pontosP2){console.log("O personagem "+p2.codinome+" venceu o duelo contra "+p1.codinome); return p2}
-    else{console.log("O duelo saiu em empate. Os personagens "+p1.codinome+" e "+p2.codinome+" não estão mais entre nós."); return null}}
+    if(pontosP1 > pontosP2){console.log("\nO personagem "+p1.codinome+" venceu o duelo contra "+p2.codinome); return p1}
+    else if(pontosP1 < pontosP2){console.log("\nO personagem "+p2.codinome+" venceu o duelo contra "+p1.codinome); return p2}
+    else{console.log("\nO duelo saiu em empate. Os personagens "+p1.codinome+" e "+p2.codinome+" não estão mais entre nós."); return null}}
 
 }
 
-const personagens =[capitao,hulk,homem_aranha,viuva,doutor_estranho,thor,homem_de_ferro,thanos]
-
-console.log("O personagem mais forte é "+duelo(duelo(duelo(viuva,thanos),duelo(hulk,homem_de_ferro)),duelo(duelo(capitao,homem_aranha),duelo(doutor_estranho,thor))).nome)
+console.log("\nO personagem mais forte é "+duelo(duelo(duelo(viuva,thanos),duelo(hulk,homem_de_ferro)),duelo(duelo(capitao,homem_aranha),duelo(doutor_estranho,thor))).nome)
 */
